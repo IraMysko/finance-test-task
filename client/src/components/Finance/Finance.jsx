@@ -1,17 +1,15 @@
 import React from 'react';
 
 import TickersList from '../TickersList';
-import Cart from '../Cart';
+import SavedTickers from '../SavedTickers';
 import { FinanceContainer } from './StyledFinance';
 
 const Finance = () => {
   return (
-    <>
-      <FinanceContainer>
-        <TickersList />
-        <Cart />
-      </FinanceContainer>
-    </>
+    <FinanceContainer>
+      <TickersList />
+      <SavedTickers />
+    </FinanceContainer>
   );
 };
 

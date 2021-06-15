@@ -12,7 +12,7 @@ import {
   MainTitle,
 } from '../TickersList/StyledTickersList';
 
-const Cart = () => {
+const SavedTickers = () => {
   const { tickers, savedTickers } = useSelector((state) => state.tickers);
 
   const savedTickersResult = savedTickers.map((savedTicker) => {
@@ -41,4 +41,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default SavedTickers;
